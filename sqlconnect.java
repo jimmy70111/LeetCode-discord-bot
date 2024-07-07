@@ -81,6 +81,7 @@ public class sqlconnect {
                     System.out.println("Email: " + resultSet.getString("email"));
                     System.out.println("Join Date: " + resultSet.getDate("join_date"));
                     System.out.println("Last Login: " + resultSet.getTimestamp("last_login"));
+                    System.out.println("Problems: " + resultSet.getInt("problems"));
                 }
 
                 // Close resources
